@@ -1,0 +1,277 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow-x: hidden; */
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+
+}
+
+.nav-link {
+
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+}
+
+.button-contact {
+    border: none;
+    width: 107px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    font-size: 12px;
+
+}
+
+/* jumbotron */
+.judul {
+
+    margin-left: 175px;
+    margin-top: 172px;
+    font-size: 97px;
+    line-height: 122px;
+    /* overflow-y: hidden; */
+    color: #020E35;
+}
+
+#jumbo {
+    margin-left: 34px;
+    overflow-x: hidden;
+
+}
+
+/* .bebek{
+    
+} */
+.button-cv {
+    z-index: -5;
+    border: none;
+    width: 140px;
+    height: 40px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    color: white;
+    left: 22%;
+    bottom: 0;
+    padding: 11px 38px 13px 20px;
+    font-size: 12px
+}
+
+/* About */
+
+.isi {
+    width: 823px;
+    height: 75px;
+    overflow-x: hidden;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+
+    color: #2B2B2B;
+
+}
+
+#about {
+
+    font-weight: 400px;
+    font-size: 40px;
+}
+
+.garba {
+    width: 100px;
+
+    border-bottom: 2px solid #E73587;
+}
+
+@media screen and (max-width: 768px) {
+
+    .navbar {
+        width: 100%;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    #jumbo {
+        display: none;
+    }
+
+    .judul {
+        font-size: 24px;
+        line-height: 30px;
+        margin-left: 10px;
+        margin-top: 20px;
+        max-width: 30%;
+        padding-bottom: 40px;
+    }
+
+    .button-cv {
+        left: 3%;
+        width: 100px;
+        font-size: 8px;
+
+
+    }
+
+    .navbar img {
+        display: none;
+    }
+
+    .isi {
+        max-width: 100%;
+        padding: 10px;
+        height: 100%;
+    }
+
+
+}
+
+/* Services */
+#services {
+    margin-bottom: -260px;
+  }
+  
+  .slide .card {
+    padding: 20px;
+    border: none;
+    border-radius: 0;
+  }
+  
+  .slide img {
+    height: 238px;
+  }
+  .slide .first {
+    background-color: #fdf8e3;
+  }
+  
+  .slide .second {
+    background-color: #f0f3fa;
+  }
+  
+  .slide .third {
+    background-color: #feeff0;
+  }
+  
+  .slide button .next {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%),
+     linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    border-radius: 100%;
+    border: rgb(239, 14, 56) solid 2px;
+    color: rgb(255, 255, 255) !important;
+    padding: 23px 23px 20px 30px;
+    font-size: 15px;
+  }
+  
+  .slide .card a {
+    background: var(--color-gradient-1);
+    color: white !important;
+    text-decoration: none;
+    padding: 12px 40px;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .valuable-services span {
+    display: block;
+    width: 100px;
+    height: 1px;
+    background: var(--color-gradient-1);
+    margin: auto;
+  }
+.portofolio span {
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: var(--color-gradient-1);
+    margin: auto;
+}
+  
+#portofolio{
+    background:#020E35;
+    padding-top: 380px;
+}
+  
+#portofolio h4 {
+    font-size: 30px;
+}
+  
+.portofolio a {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    color: #feeff0;
+    text-decoration: none;
+    padding: 1em 2em;
+    display: inline-block;
+}
+  
+.porofolio .custom {
+    letter-spacing: 3px;
+}
+  
+
+/* Section Question */
+/* Kolom 1 */
+.container-question {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.judul-kolom-1-question {
+    font-size: 30px;
+    line-height: 38px;
+    color: #020e35;
+}
+
+.title-kolom-1-question {
+    /* font-size: 30px; */
+    /* line-height: 110px; */
+    color: #020e35;
+}
+
+.hear {
+    /* font-size: 90px; */
+    line-height: 110px;
+    color: #e73587;
+}
+
+/* Kolom 2 */
+.form-label-question {
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 22px;
+    color: #2c3241;
+}
+
+.text-placeholder-question {
+    font-size: 18px;
+    line-height: 36px;
+    color: #2c3241;
+}
+
+.button-kolom-2-section-D {
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+/* Footer */
+.container-footer {
+    background: #020e35;
+    margin-top: 94px;
+}
+
+.title-footer {
+    font-family: "Basic";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ffffff;
+}
+
